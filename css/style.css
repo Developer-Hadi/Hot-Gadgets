@@ -1,3 +1,5 @@
+/* ==========Designed By T.M. Hadiuzzaman Liton======== */
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +12,8 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
 }
-ul li{
+
+ul li {
     list-style-type: none;
 }
 
@@ -33,11 +36,12 @@ a:hover {
 }
 
 /* ====SLIDER CSS==== */
-#slider{
+#slider {
     background-image: url(../images/header-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 #slider h2 {
     font-weight: 700;
 }
@@ -99,35 +103,44 @@ a:hover {
     border-radius: 5px 20px;
 }
 
-#newsletter{
+/* ====NEWSLETTER CSS==== */
+#newsletter {
     background-image: url(../images/contact_bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px 0;
 }
 
-#Footer{
+/* ====FOOTER CSS==== */
+#Footer {
     padding: 30px;
 }
-#Footer h5{
+
+#Footer h5 {
     font-size: 20px;
     font-weight: 500;
     padding-bottom: 10px;
 }
-#Footer p, #Footer a{
+
+#Footer p,
+#Footer a {
     font-size: 14px;
     font-weight: 300;
     color: #333;
 }
 
-footer p{
+footer p {
     margin-bottom: 0;
     padding: 20px 0;
     color: #777;
 }
-footer a{
+
+footer a {
     color: #ffbc24;
 }
-footer a:hover{
+
+footer a:hover {
     color: hsla(42, 100%, 57%, 0.404);
 }
+
+/* ====THANK YOU==== */
