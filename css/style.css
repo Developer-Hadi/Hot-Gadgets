@@ -1,44 +1,133 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-body{
-    font-family: 'Poppins',sans-serif ;
+
+body {
+    font-family: 'Poppins', sans-serif;
 }
-a, a:hover{
+ul li{
+    list-style-type: none;
+}
+
+a,
+a:hover {
     text-decoration: none;
 }
+
 /* ====COMMON CSS==== */
-.see-btn{
+.see-btn {
     color: #FFBC24;
 }
-.buy-btn{
+
+.buy-btn {
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     background: #000;
     color: #fff;
 }
+
 /* ====SLIDER CSS==== */
-#slider h2{
+#slider{
+    background-image: url(../images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#slider h2 {
     font-weight: 700;
 }
 
-#slider ol li{
+#slider ol li {
     background: #444;
     width: 7px;
     height: 5px;
     border: none;
     border-radius: 2px;
 }
-#slider ol li.active{
+
+#slider ol li.active {
     background: #FFBC24;
     width: 20px;
     height: 5px;
 
 }
 
-/* ====COMMON CSS==== */
+/* ====CATEGORIES CSS==== */
+.card {
+    border: none;
+    background: #fff;
+    padding: 20px 20px;
+    box-shadow: 5px 5px 25px lightgray;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 180px;
+    height: 200px;
+}
+
+.card-footer {
+    background: none;
+    border-top: none;
+}
+
+
+.cat-head h3 {
+    text-align: center;
+
+}
+
+.cat-head h3::after {
+    content: "";
+    width: 120px;
+    height: 20px;
+    border-bottom: 5px solid #FFBC24;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.cat-item {
+    box-shadow: 5px 5px 30px lightgray;
+    padding: 20px;
+    margin: 20px 15px;
+    border-radius: 5px 20px;
+}
+
+#newsletter{
+    background-image: url(../images/contact_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+#Footer{
+    padding: 30px;
+}
+#Footer h5{
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+#Footer p, #Footer a{
+    font-size: 14px;
+    font-weight: 300;
+    color: #333;
+}
+
+footer p{
+    margin-bottom: 0;
+    padding: 20px 0;
+    color: #777;
+}
+footer a{
+    color: #ffbc24;
+}
+footer a:hover{
+    color: hsla(42, 100%, 57%, 0.404);
+}
